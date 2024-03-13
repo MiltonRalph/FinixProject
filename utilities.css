@@ -1,0 +1,109 @@
+/* UTILITIES */
+:root {
+  --primary-color: #e0e000;
+  --secondary-color: #363753;
+  --tertiary-color: #dfe3ee;
+  --light-color: #f4f4f4;
+  --dark-color: #292929;
+  --alternative-color: #ffff01;
+}
+.pcolor {
+  color: rgba(54, 55, 83, 0.75);
+}
+.scolor {
+  color: rgba(54, 55, 83, 0.85);
+}
+
+.caps {
+  text-transform: capitalize;
+}
+
+.ups {
+  text-transform: uppercase;
+}
+.sec-link {
+  color: var(--secondary-color);
+}
+.heading-1 {
+  font-size: clamp(1.3em, 4vw, 2em);
+}
+.lead-1 {
+  font-size: clamp(0.5em, 1.3vw, 0.9em);
+  margin: 2.5em 6em;
+  padding: 0 8em;
+}
+a {
+  color: var(--secondary-color);
+}
+p {
+  line-height: 1.5;
+}
+button {
+  border: none;
+  background: none;
+}
+.line {
+  width: clamp(4em, 4vw, 5em);
+  height: 0.3em;
+  background: var(--primary-color);
+  margin-top: 0.7em;
+}
+.p-none {
+  padding-right: none;
+}
+h2,
+h3,
+p {
+  font-weight: 800;
+}
+.bxsd {
+  box-shadow: 0 5px 4px -4px black;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.bk-btn {
+  background: var(--primary-color);
+  padding: 1em 1.2em;
+  margin: none;
+  box-shadow: 0 0.05em 0.25em rgba(0, 0, 0, 0.5);
+  color: white;
+  text-shadow: 0 0.05em 0.25em rgba(0, 0, 0, 0.5);
+  font-size: 125%;
+  text-decoration: none;
+  margin-right: 1em;
+  font-family: Inter;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+.bd-btn {
+  border: 1.5px solid #f4f4f4;
+  padding: 1em 1.2em;
+  margin: none;
+  box-shadow: 0 0.05em 0.25em rgba(0, 0, 0, 0.5);
+  color: white;
+  text-shadow: 0 0.05em 0.25em rgba(0, 0, 0, 0.5);
+  font-size: 125%;
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+.bk-btn:hover + .bd-btn {
+  background-color: var(--primary-color);
+}
+.bk-btn:hover {
+  background-color: transparent;
+  border: 1.5px solid #f4f4f4;
+}
+.fluid {
+  padding: 1em calc(50% - 450px);
+  max-width: 900px;
+}
+li {
+  list-style: none;
+  text-decoration: underline;
+}

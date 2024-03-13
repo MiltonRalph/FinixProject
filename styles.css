@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Abhaya Libre;
+  font-weight: 800;
+  color: #363753;
+}
+.caps {
+  text-transform: capitalize;
+}
+.ups {
+  text-transform: uppercase;
+}
+body,
+main::before {
+  background: url(/images/walls-io-kRes4vq1AKg-unsplash.jpg) center center/cover
+    no-repeat;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 30em;
+  background: hsla(0, 0%, 100%, 0.5);
+  padding: 4em 0;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 5px 0 5px -5px black, -5px 0 5px -5px black;
+  border-radius: 5px;
+}
+main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(20px);
+  margin: -30px;
+}
+.group-1 {
+  display: flex;
+  flex-direction: row;
+}
+.group-1 .logo {
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 1em;
+}
+.group-1 h2 {
+  font-size: 2.1em;
+  font-family: Berkshire Swash;
+  font-weight: 100;
+}
+main h1 {
+  margin: 1em 0;
+  font-size: 140%;
+  font-weight: 800;
+  animation: typing 10s steps(32), caret 1s steps(1) infinite;
+  border-right: 0.05em solid transparent;
+  border-bottom: 0.1em solid #e0e000;
+  padding-bottom: 0.05em;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 32ch;
+}
+main p {
+  line-height: 1.5;
+  color: rgba(54, 55, 83, 0.8);
+  margin: 1em 1.4em;
+  padding: 0 2em;
+  font-size: 100%;
+  font-weight: 600;
+}
+.bk-btn {
+  background: #e0e000;
+  padding: 1em 1.2em;
+  margin-top: 3em;
+  box-shadow: 0 0.05em 0.25em rgba(0, 0, 0, 0.5);
+  color: white;
+  text-shadow: 0 0.05em 0.25em rgba(0, 0, 0, 0.5);
+  font-size: 60%;
+  text-decoration: none;
+  margin-right: 1em;
+  font-family: Inter;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+.bk-btn:hover{
+  opacity: .5;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes caret {
+  50% {
+    border-color: currentColor;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 20em;
+  }
+  main h1 {
+    font-size: 90%;
+  }
+  main p {
+    font-size: 70%;
+  }
+}

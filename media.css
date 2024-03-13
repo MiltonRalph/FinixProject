@@ -1,0 +1,421 @@
+/* For ipad mini screen sizes */
+@media (max-width: 820px) {
+  #contain-1 {
+    padding: 0.5em 5.5em;
+  }
+  .contain-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .wrapper-2 {
+    padding: 0.8em 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper-2 .logo {
+    margin-right: 0.8em;
+  }
+  .wrapper-3 {
+    padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper-3 .sec-link,
+  .wrapper-3 .pri-link {
+    left: -2.5%;
+    font-size: 0.6em;
+  }
+  .wrapper-3 .sec-link {
+    margin-right: 3em;
+  }
+  .toggler {
+    position: relative;
+    transform: translate(130%, 20%);
+  }
+  .contain-4 {
+    padding: 0 1em;
+    padding-top: 6em;
+  }
+  .wrapper-6 {
+    position: relative;
+    top: 3.5em;
+  }
+  .contain-5 {
+    margin-top: 1em;
+  }
+  .contain-5 .group {
+    position: relative;
+    top: -88%;
+  }
+  .contain-6 {
+    grid-template-columns: 1fr;
+  }
+  .wrapper-7 {
+    margin-top: 3em;
+  }
+  .lead-1 {
+    padding: 0 0.1em;
+  }
+  .wrapper-8 {
+    margin-top: 3em;
+  }
+  .contain-7 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gr-8 {
+    width: clamp(18em, 40vw, 23em) !important;
+  }
+  .gr-9 {
+    width: clamp(18em, 40vw, 23em) !important;
+  }
+  .gr-9 input[type='checkbox']:checked ~ label,
+  .gr-9 input[type='checkbox']:active ~ label {
+    padding-top: 1.5em !important;
+  }
+  .contain-11 {
+    flex-direction: column;
+    top: 30em !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper-14 {
+    left: 0;
+    top: 0.5em;
+    margin: 5em 0;
+  }
+  .wrapper-15 {
+    top: -31em;
+    padding: 2.5em 1em;
+    padding-right: 2em;
+    width: 98%;
+    right: 0;
+  }
+  .wrapper-15 p {
+    padding-left: 3em;
+  }
+  .gr-10 .star {
+    width: 5em;
+    height: 1em;
+  }
+  .gr-10 .colon {
+    height: 2em;
+    width: 2em;
+  }
+  footer {
+    top: 24em;
+  }
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 26em;
+    position: relative;
+    left: 7em;
+    font-size: 1.1em;
+  }
+  .wrapper-16 {
+    grid-column: 1 / span 2;
+  }
+  footer .wrapper-21 {
+    font-size: 0.9em;
+  }
+}
+
+/* For Andriod screen sizes */
+@media (max-width: 600px) {
+  #contain-1 {
+    padding: 0.5em 1em !important;
+  }
+  .gr-1 h4 {
+    font-size: 0.4em;
+  }
+  .gr-1 .small {
+    width: 0.7em;
+    height: 0.7em;
+    margin-right: 0.6em;
+  }
+  .gr-2 .brands {
+    height: 0.7em;
+    width: 0.7em;
+  }
+  .wrapper-3 .sec-link {
+    margin-right: 2.4em;
+  }
+  .wrapper-3 .sec-link,
+  .wrapper-3 .pri-link {
+    font-size: 0.3em !important;
+  }
+  .wrapper-3 .pri-link {
+    margin-left: 1.5em !important;
+  }
+  .toggler {
+    position: relative;
+    transform: translate(60%, 10%);
+    height: 18px;
+    width: 45px;
+  }
+  .toggle-ball {
+    width: 16px;
+    height: 15px;
+    left: 2px;
+  }
+  .toggler i {
+    font-size: 0.7em;
+  }
+  .image-holder {
+    height: 35em;
+  }
+  .button-holder {
+    transform: translateY(-350%);
+  }
+  .wrapper-4 {
+    position: absolute;
+    top: 27em;
+    left: 15%;
+  }
+  .wrapper-4 h1 {
+    font-size: 3em;
+  }
+  .wrapper-4 h2 {
+    font-size: 3em;
+    font-family: Abril Fatface;
+    padding-bottom: 0.2em;
+  }
+  .wrapper-4 p {
+    font-size: 0.8em;
+    padding-bottom: 3em;
+  }
+  .bk-btn,
+  .bd-btn {
+    font-size: 100%;
+    padding: 0.6em 0.9em;
+  }
+  .contain-4 {
+    display: block;
+    padding: 0 1.5em;
+    padding-top: 5em;
+  }
+  .wrapper-6 {
+    display: none;
+  }
+  .heading {
+    font-size: 1.5em !important;
+    margin-bottom: 0.5em;
+  }
+  .sub-heading {
+    font-size: 0.55em !important;
+  }
+  .contain-4 .lead {
+    font-size: 0.75em !important;
+  }
+  .wrapper-5 {
+    display: flex;
+    flex-direction: none;
+  }
+  input[type='checkbox'] ~ label {
+    font-size: 0.6em;
+    position: relative;
+    top: -6em;
+  }
+  .wrapper-5 .box-1 {
+    position: relative;
+    top: -1em;
+    height: 4.1em;
+    width: 3em;
+  }
+  .wrapper-5 .box-2 {
+    position: relative;
+    top: -3.85em;
+    height: 2.5em;
+  }
+  .contain-5 {
+    margin: 0 0.05em;
+  }
+  .contain-7 {
+    margin: 3em 1.2em;
+  }
+  .contain-7 .gr-7 {
+    padding: 0.8em 1em;
+  }
+  .contain-7 .gr-6 {
+    font-size: 0.6em;
+  }
+  .gr-7 h3,
+  .gr-7 p {
+    position: relative;
+    top: -20%;
+  }
+  .image-holder-1 {
+    height: 30em;
+  }
+  .wrapper-10 {
+    position: absolute;
+    top: 12em !important;
+  }
+  .gr-9 {
+    height: 9em;
+  }
+  .wrapper-12 img {
+    margin-top: 2em;
+  }
+  .wrapper-13 {
+    height: 47em;
+  }
+  .group-4 {
+    top: 4em;
+  }
+  .group-5 {
+    top: 10em;
+  }
+  .group-5 .text-fields {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+  .group-5 .text-fields label:last-child {
+    grid-column: 1 / span 1;
+    height: 10em;
+  }
+  .group-5 button[type='submit'] {
+    width: 100%;
+    padding: 0.4em 1em;
+  }
+  .wrapper-15 {
+    top: -34em;
+  }
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 20em;
+    position: relative;
+    left: -3em;
+    font-size: 1.1em;
+  }
+  .wrapper-16 {
+    grid-column: 1 / span 2;
+  }
+  footer {
+    top: 20em;
+  }
+  footer .wrapper-21 {
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 16em;
+    position: relative;
+    left: -4em;
+    font-size: 1.1em;
+  }
+}
+
+/* For ipad pro screen sizes */
+@media (max-width: 1024px) {
+  #contain-1 {
+    padding: 0.5em 6em;
+  }
+  .wrapper-3 .sec-link,
+  .wrapper-3 .pri-link {
+    font-size: 0.5em;
+  }
+  .wrapper-3 .sec-link {
+    margin-right: 3em;
+  }
+  .toggler {
+    top: 35%;
+  }
+  .contain-4 .lead {
+    padding: 0 3em;
+  }
+  .contain-7 img {
+    position: relative;
+    top: -40%;
+    left: 14%;
+  }
+  .wrapper-10 {
+    position: absolute;
+    top: 15em;
+    gap: 1.5em;
+    width: clamp(18em, 65vw, 75em);
+    overflow: hidden;
+  }
+  .gr-8 {
+    width: clamp(18em, 31.5vw, 23em);
+    height: clamp(12em, 68vw, 22em);
+  }
+  .gr-9 {
+    position: relative;
+    top: -1%;
+    background: #fefefe;
+    height: clamp(9em, 28vw, 12em);
+    width: clamp(18em, 31.5vw, 23em);
+    text-align: center;
+  }
+  .gr-9 h2 {
+    padding-top: 2.5em;
+  }
+  .gr-9 p {
+    padding-top: 1.5em;
+  }
+  .gr-9 input[type='checkbox']:checked ~ label,
+  .gr-9 input[type='checkbox']:active ~ label {
+    position: relative;
+    top: -2.5em;
+    padding: 0.5em 0;
+  }
+  .contain-9 {
+    position: relative;
+    top: 14em;
+  }
+  .contain-10 {
+    position: relative;
+    top: 19em;
+  }
+  .wrapper-15 h2 {
+    width: 12em;
+  }
+  .contain-11 {
+    top: 28em;
+  }
+  footer {
+    padding: 1em 6em;
+  }
+  .wrapper-16 {
+    margin-right: 1em;
+  }
+}
+
+/* For Larger screen sizes */
+@media (max-width: 1280px) {
+  .toggler {
+    right: 7%;
+  }
+  .wrapper-3 .pri-link {
+    margin-left: 0.4em;
+  }
+  .heading {
+    position: relative;
+    top: -4.3em;
+    font-size: 2.5em;
+  }
+  .sub-heading {
+    position: relative;
+    top: -13.3em;
+    font-size: 0.8em;
+  }
+  .contain-4 .lead {
+    font-size: 0.9em;
+    position: relative;
+    top: -7.5em;
+  }
+  .contain-7 .gr-6 {
+    padding-right: clamp(4em, 7vw, 16em);
+  }
+}
